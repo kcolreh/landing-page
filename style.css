@@ -1,10 +1,17 @@
+/* header */
+
 .header{
     display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
+    flex-shrink: 0;
     
 }
 
+
+/* top header */
 .header-top{
     display: flex;
     align-items: center;
@@ -23,6 +30,88 @@
     font-size: 18px;
 }
 
+.header-h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+/* bot header */
+
+.header-bot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    padding-top: 25px;
+    gap: 10px;
+}       
+
+.header-left-bot{
+    width: 450px;
+}
+
+.placeholder{
+    height: 250px;
+    width: 550px;
+    flex-shrink: 0;
+}
+
+.header-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* body */
+
+.body-h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800px;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.body-mid{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info-placeholder{
+    flex-shrink: 0;
+    height: 150px;
+    width: 150px;
+}
+.info-img{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.info-text{
+  display: flex;
+  justify-content: center;  
+  gap: 35px;
+}
+
+.card{
+    width: 150px;
+    margin-top: 15px;
+}
+
+/* Quote section */
 
 a,
 ul{
@@ -33,4 +122,8 @@ ul{
     padding: 0px;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
  
